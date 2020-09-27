@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1;
+    background-color: #2b4059;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#titleBanner {
+    background-image: url('../Images/space.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+#title {
+    font-size: 5rem;
+}
+
+.output {
+    
+}
