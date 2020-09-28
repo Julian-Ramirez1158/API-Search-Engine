@@ -12,7 +12,7 @@ $(function (){
                     let item = `<img class="col-sm-6 col-md-4" src="${thing.images.downsized_large.url}" alt="${thing.title}"/>`;
                     $('#output').append(item);
                 }
-            } );
+            });
     });
 });
 
