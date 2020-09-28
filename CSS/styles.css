@@ -10,6 +10,7 @@ body {
     padding: 0;
     border: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-width: 400px;
 }
 
 #titleBanner {
@@ -42,5 +43,8 @@ body {
 @media screen and (max-width: 576px) {
     #search {
         width: 40%;
+    }
+    #title {
+        font-size: 4rem;
     }
 }
