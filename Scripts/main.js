@@ -1,3 +1,9 @@
+$(function (){
+    $('#titleBanner').fadeIn(3000);
+    $('#search').fadeIn(3000);
+    $('#submit').fadeIn(3000);
+});
+
 
 $(function (){
     let APIKEY = "4TZn3MNINHOctdASo3YzC53mvkqThjmK";
@@ -15,6 +21,8 @@ $(function (){
             });
     });
 });
+
+
 
 
 
