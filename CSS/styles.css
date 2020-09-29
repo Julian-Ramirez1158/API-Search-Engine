@@ -63,8 +63,9 @@ body {
     border-radius: 2em;
 }
 
-#aboutSection h1 {
+#abouth1 {
     text-align: center;
+    margin-bottom: 30px;
 }
 
 #accordionExample {
@@ -95,7 +96,6 @@ body {
     #aboutSection {
         font-size: 1.00rem;
     }
-}
 }
 
 @media screen and (max-width: 336px) {
