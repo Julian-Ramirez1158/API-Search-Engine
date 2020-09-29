@@ -2,6 +2,8 @@ $(function (){
     $('#titleBanner').fadeIn(3000);
     $('#search').fadeIn(3000);
     $('#submit').fadeIn(3000);
+    $('#accordionExample').fadeIn(3000);
+    $('#aboutSection').fadeIn(3000);
 });
 
 
