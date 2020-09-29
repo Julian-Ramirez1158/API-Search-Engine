@@ -52,6 +52,39 @@ body {
     margin-right: auto;
 }
 
+
+#aboutSection {
+    display: none;
+    background-color: silver;
+    border: 5px solid black;
+    margin-top: 40px;
+    font-size: 1.25rem;
+    padding: 30px;
+    border-radius: 2em;
+}
+
+#aboutSection h1 {
+    text-align: center;
+}
+
+#accordionExample {
+    margin-top: 40px;
+    display: none;
+}
+
+.card-header {
+    background-color: silver;
+}
+
+.card-body {
+    font-size: 1.20rem;
+}
+
+.accordionButton {
+    color: black;
+    font-size: 1.5rem;
+}
+
 @media screen and (max-width: 576px) {
     #search {
         width: 50%;
@@ -59,6 +92,10 @@ body {
     #title {
         font-size: 4rem;
     }
+    #aboutSection {
+        font-size: 1.00rem;
+    }
+}
 }
 
 @media screen and (max-width: 336px) {
