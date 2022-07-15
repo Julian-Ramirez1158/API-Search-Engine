@@ -13,7 +13,7 @@ $(function (){
         event.preventDefault();
         $('#output').empty();
         let userInput = $('#search').val();
-        let urlSent = `https://api.giphy.com/v1/gifs/search?api_key=${APIKEY}&q=${userInput}&limit=22`;
+        let urlSent = `https://api.giphy.com/v1/gifs/search?api_key=${APIKEY}&q=${userInput}&limit=21`;
         $.get( urlSent )
             .done( function( result ) {
                 for(let thing of result.data) {
